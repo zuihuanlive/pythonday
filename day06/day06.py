@@ -31,7 +31,6 @@ def get_topword(file_name):
         top_num = word_list.count(i)
         if top_num > flag:
             flag = top_num
-    # print(flag)
 
     for i in word_list:
         top_num = word_list.count(i)
