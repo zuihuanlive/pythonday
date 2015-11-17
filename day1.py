@@ -1,0 +1,1 @@
+import osprint ('%s', os.getcwd())

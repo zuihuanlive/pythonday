@@ -1,0 +1,8 @@
+
+DEPLOY_PATH	/home/zuilive/python/deploy
+B	/home/zuilive/python
+R	aaa	hello
+R	bbb	nihao
+   
+DEPLOY_PATH	/home/zuilive/python/deploy2
+a	ddd	world
