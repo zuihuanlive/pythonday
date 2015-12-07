@@ -32,6 +32,6 @@ os.popen(cmd_line).read()
 cmd_line = 'ssh radius@172.16.148.18 \'rm '+log_path+'/'+file_name+'.tar.gz\''
 os.popen(cmd_line).read()
 
-# 下载
+# 下载error日志
 cmd_line = 'scp radius@172.16.148.18:'+log_path+'/'+err_file+' '+log_path
 os.popen(cmd_line)
